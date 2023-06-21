@@ -1,0 +1,22 @@
+.arbre{
+display: flex;
+flex-direction: column;
+align-items: center;
+
+}
+body{
+    background-color: beige;
+
+}
+.bordure{
+    border: 3px solid;
+    border-color: brown;
+}
+@media (min-width: 300px) 
+{ body {background-color: aquamarine;
+} 
+.arbre{
+    display: blo;
+ }
+
+}

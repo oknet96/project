@@ -1,27 +1,40 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+	<meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Formulaire avec connexion MySQL</title>
+	
 </head>
+<link rel="stylesheet" href="style.css">
+
 <body>
 
-	<h1>Formulaire avec connexion MySQL</h1>
+	<h1 style="text-align: center;">Formulaire d'inscription</h1>
 
 	<form action="traitement.php" method="POST">
+		<div class="arbre">
+		<div class="arbre1">
 		<label for="nom">Nom :</label>
-		<input type="text" id="nom" name="nom" required><br><br>
-
-		<label for="prenom">Prénom :</label>
-		<input type="text" id="prenom" name="prenom" required><br><br>
-
+		<input type="text" id="nom" name="nom" required style="width: 700px;height: 20px;"class="bordure"><br><br>
+	</div>
+	<div class="arbre1">
+		<label for="prenom">Prenom :</label>
+		<input type="text" id="prenom" name="prenom" required style="width: 700px;height: 20px;" class="bordure"><br><br>
+	</div>
+	<div class="arbre1">
 		<label for="email">Email :</label>
-		<input type="email" id="email" name="email" required><br><br>
-
+		<input type="email" id="email" name="email" required style="width: 700px;height: 20px;" class="bordure"><br><br>
+	</div>
+	<div class="arbre1">
 		<label for="message">Message :</label>
-		<textarea id="message" name="message" rows="5" required></textarea><br><br>
-
-		<input type="submit" value="Envoyer">
-		<h2>never stop learning</h2>
+		<textarea id="message" name="message" rows="5" cols="95" required class="bordure"></textarea><br><br><br><br>
+	</div>
+	<div class="arbre1">
+		<input type="submit" value="Envoyer" style="color: black;font-weight: 1000;border: 3px solid;background-color: beige;">
+	</div>
+</div>
 	</form>
 
 </body>
